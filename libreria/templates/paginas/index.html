@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %}
+
+    <div class="container p-5 text-center">
+        <div class="row">
+        <div class="col" style="max-width: 1000px;">
+        <h1 class="display-3">Bienvenidos al sitio de la librería</h1>
+        <p class="lead">GRUPO 30 Codo a Codo Full Stack Python Comisión</p>
+        <hr class="my-2">
+        <p>CRUD de Libros con Django</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'libros' %}" role="button">Ir a la librería</a>
+        </p>
+        </div>
+        </div>
+    </div>
+
+{% endblock %}

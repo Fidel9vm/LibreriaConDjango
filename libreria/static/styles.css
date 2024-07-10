@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.col {
+    border-radius: 30px;
+    background-color: #02000d;
+    box-shadow: 1px 1px 15px blue;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 15px blue;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 900px;
+}
+
+.card-header {
+    background-color: white;
+}
+
+nav {
+    background-color: #100068;
+}
+
+strong {
+    color: white;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    transition: 400ms;
+}
+
+.nav-link:hover {
+    color: #ba95ff;
+    transform: scale(1.1);
+}
